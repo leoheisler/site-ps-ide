@@ -1,0 +1,52 @@
+.abas {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: #0E389C;
+    display: flex;
+    height: 34px;
+}
+
+.title {
+    width: 198px;
+    height: 28px;
+    background: #0E389C;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto auto 43px;
+}
+
+.abas > button {
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.abaSelecionada {
+    font-weight: 700 !important;
+}
+
+.abas > button:hover {
+    background: #20195F;
+}
+
+.jogadoresSection {
+    width: 860px;
+    margin: auto;
+}
+
+.jogador {
+
+}

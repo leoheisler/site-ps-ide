@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
+import Sobre from "./components/Sobre";
+import Jogadores from "./components/Jogadores";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <Header/>
+      <Sobre />
+      <Jogadores />
   </React.StrictMode>
 );
 

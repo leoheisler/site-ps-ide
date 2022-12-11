@@ -72,6 +72,14 @@
     flex-direction: column;
     margin: 30px 0 30px 41px;
     flex-grow: 1;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+.nomeJogador {
+    font-weight: 700;
 }
 
 .jogador > .posicao {

@@ -81,7 +81,7 @@ export default function () {
                         <img src={jogador.img} alt=""/>
                     </div>
                     <div className={styles.info}>
-                        <span>{jogador.nome}</span>
+                        <span className={styles.nomeJogador}>{jogador.nome}</span>
                         <span>Idade: {jogador.idade} anos</span>
                     </div>
                     <div className={styles.posicao}>{jogador.numero}</div>

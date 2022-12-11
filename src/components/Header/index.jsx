@@ -1,4 +1,5 @@
 import styles from './style.module.css'
+import React from 'react'
 export default function Header(){
     return(
         < div className={styles.container}>

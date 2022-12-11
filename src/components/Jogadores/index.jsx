@@ -73,7 +73,7 @@ export default function () {
                 </button>
         </div>
 
-        <ul>
+        <ul className={styles.jogadores}>
             {getJogadoresAba(abaAberta).map((jogador, id) => (
                 <li className={styles.jogador} key={id}>
                     <div className={styles.foto}>

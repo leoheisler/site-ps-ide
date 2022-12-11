@@ -2,11 +2,13 @@
     width: 100vw;
     height: fit-content;
     background-color: #20195F;
-    padding: 0.25%;
+    padding: 1%;
 }
 .container ul{
     display: flex;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
 }
 .itemLista{
     color: white;

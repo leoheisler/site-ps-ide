@@ -1,7 +1,7 @@
 .container{
     width: 100vw;
     height: fit-content;
-    background-color: #4A0101;
+    background-color: #20195F;
     padding: 0.25%;
 }
 .container ul{
@@ -10,8 +10,8 @@
 }
 .itemLista{
     color: white;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    font-weight: bold;
     list-style-type: none;
     margin: auto;
 }

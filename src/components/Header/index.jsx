@@ -4,8 +4,9 @@ export default function Header(){
         < div className={styles.container}>
             <ul>
                 <li className={styles.itemLista}>HOME</li>
-                <li className={styles.itemLista}>PRODUTOS</li>
                 <li className={styles.itemLista}>SOBRE</li>
+                <li className={styles.itemLista}>JOGADORES</li>
+                <li className={styles.itemLista}>JOGOS</li>
             </ul>
         </div>
     )

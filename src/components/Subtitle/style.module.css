@@ -1,0 +1,13 @@
+.title {
+    width: 198px;
+    height: 28px;
+    background: #0E389C;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto auto 43px;
+}

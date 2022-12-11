@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import styles from './jogadores.module.css';
+import Subtitle from "../Subtitle";
 
 const ATACANTES = "atacantes";
 const MEIO_CAMPO = 'meio-campo';
@@ -43,7 +44,7 @@ export default function () {
 
 
     return <div className={styles.jogadoresSection}>
-        <h2 id="jogadores" className={styles.title}>Jogadores</h2>
+        <Subtitle id="jogadores">Jogadores</Subtitle>
 
         <div className={styles.abas}>
                 <button

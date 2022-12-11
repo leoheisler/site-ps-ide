@@ -2,7 +2,7 @@
     width: 100vw;
     height: fit-content;
     background-color: #20195F;
-    padding: 1%;
+    padding: 1% 0;
 }
 .container ul{
     display: flex;

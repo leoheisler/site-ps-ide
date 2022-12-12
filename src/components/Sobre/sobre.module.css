@@ -1,0 +1,49 @@
+.secao{
+    padding: 5vh 0 5vh 0;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+/* PRIMEIRO PARAGRAFO*/
+.info{
+    margin: auto;
+    width: 60%;
+    text-align: justify;
+    line-height: 1.5;
+}
+@media only screen and (min-width: 860px) {
+    .info {
+        width:600px;
+    }
+
+}
+/* CONTAINER COM HIGHLIGHT */ 
+.info_note{
+    width: 90%;
+    text-align: justify;
+    padding:5px 30px 5px 25px;
+    margin-left: -1px;
+    background-color: #6A81BA42;
+}
+.info_box{
+    margin: auto;
+    width:59%;
+    padding: 5px 0;
+    border-left: 7px solid #0E389C;
+}
+@media only screen and (min-width: 860px) {
+    .info_box {
+        width: 590px;
+        height: auto;
+    }
+    .info_note{
+        width: 540px;
+    }
+
+}
+
+/* IMAGEM */ 
+.img{
+  margin-top: 5vh;
+  height: 100%;
+  width: 100%;
+}

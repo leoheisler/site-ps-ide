@@ -4,10 +4,10 @@ export default function Header(){
     return(
         <div className={styles.container}>
             <ul>
-                <li className={styles.itemLista}>HOME</li>
-                <li className={styles.itemLista}>SOBRE</li>
-                <li className={styles.itemLista}>JOGADORES</li>
-                <li className={styles.itemLista}>JOGOS</li>
+                <li className={styles.itemLista}><a href="">HOME</a></li>
+                <li className={styles.itemLista}><a href="#sobre a seleção">SOBRE</a></li>
+                <li className={styles.itemLista}><a href="#jogadores">JOGADORES</a></li>
+                <li className={styles.itemLista}><a href="">JOGOS</a></li>
             </ul>
         </div>
     )

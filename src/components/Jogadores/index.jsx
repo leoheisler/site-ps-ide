@@ -9,25 +9,25 @@ const GOLEIROS = 'goleiros'
 
 const jogadores = {
     atacantes: [
-        {nome: "ATACANTE 1", idade: 27, numero: "J", img: "./def.png"},
-        {nome: "ATACANTE 2", idade: 27, numero: "J", img: "./def.png"},
-        {nome: "ATACANTE 3", idade: 27, numero: "J", img: "./def.png"},
-        {nome: "Pedrinho", idade: 27, numero: "P", img: "./def.png"}
+        {nome: "ATACANTE 1", idade: 27, posicao: "J", img: "./def.png"},
+        {nome: "ATACANTE 2", idade: 27, posicao: "J", img: "./def.png"},
+        {nome: "ATACANTE 3", idade: 27, posicao: "J", img: "./def.png"},
+        {nome: "Pedrinho", idade: 27, posicao: "P", img: "./def.png"}
     ],
     meio_campo: [
-        {nome: "MC 1", idade: 21, numero: "J", img: "./def.png"}
+        {nome: "MC 1", idade: 21, posicao: "J", img: "./def.png"}
     ],
     defensores: [
-        {nome: "DF 1", idade: 34, numero: "J", img: "./def.png"}
+        {nome: "DF 1", idade: 34, posicao: "J", img: "./def.png"}
     ],
     goleiros: [
-    {nome: "GOALKEEPER 1", idade: 25, numero: "J", img: "./def.png"}
+    {nome: "GOALKEEPER 1", idade: 25, posicao: "J", img: "./def.png"}
     ]
 
 }
 
 
-export default function () {
+export default function Jogadores () {
     const [abaAberta, setAbaAberta] = useState(ATACANTES);
 
     const getJogadoresAba = (aba) => {
@@ -49,7 +49,7 @@ export default function () {
     return <div className={styles.jogadoresSection}>
         <Subtitle id="jogadores">Jogadores</Subtitle>
 
-        <div className={styles.abas + " " + styles.col10}>
+        <div className={styles.abas}>
                 <button
                     className={(abaAberta === ATACANTES) ? styles.abaSelecionada : styles.aba}
 
@@ -75,19 +75,23 @@ export default function () {
 
         <ul className={styles.jogadores}>
             {getJogadoresAba(abaAberta).map((jogador, id) => (
-                <li className={styles.jogador} key={id}>
-                    <div className={styles.foto}>
-                        <span></span>
-                        <img src={jogador.img} alt=""/>
-                    </div>
-                    <div className={styles.info}>
-                        <span className={styles.nomeJogador}>{jogador.nome}</span>
-                        <span>Idade: {jogador.idade} anos</span>
-                    </div>
-                    <div className={styles.posicao}>{jogador.numero}</div>
-                </li>
+                <Jogador id={id} jogador={jogador} />
                 ))}
         </ul>
 
     </div>
+}
+
+function Jogador({id, jogador}) {
+    return <li className={styles.jogador} key={id}>
+        <div className={styles.foto}>
+            <span></span>
+            <img src={jogador.img} alt="" />
+        </div>
+        <div className={styles.info}>
+            <span className={styles.nomeJogador}>{jogador.nome}</span>
+            <span>Idade: {jogador.idade} anos</span>
+        </div>
+        <div className={styles.posicao}>{jogador.posicao}</div>
+    </li>;
 }

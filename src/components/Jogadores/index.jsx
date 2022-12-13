@@ -9,19 +9,38 @@ const GOLEIROS = 'goleiros'
 
 const jogadores = {
     atacantes: [
-        {nome: "ATACANTE 1", idade: 27, posicao: "J", img: "./def.png"},
-        {nome: "ATACANTE 2", idade: 27, posicao: "J", img: "./def.png"},
-        {nome: "ATACANTE 3", idade: 27, posicao: "J", img: "./def.png"},
-        {nome: "Pedrinho", idade: 27, posicao: "P", img: "./def.png"}
+        {nome: "Jogador 1", idade: 27, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 2", idade: 31, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 3", idade: 25, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 4", idade: 34, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 5", idade: 19, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 6", idade: 34, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 7", idade: 25, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 8", idade: 34, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 9", idade: 25, posicao: "J", img: "./def.png"},
     ],
     meio_campo: [
-        {nome: "MC 1", idade: 21, posicao: "J", img: "./def.png"}
+        {nome: "Jogador 10", idade: 27, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 11", idade: 31, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 12", idade: 25, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 13", idade: 34, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 14", idade: 19, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 15", idade: 34, posicao: "J", img: "./def.png"},
     ],
     defensores: [
-        {nome: "DF 1", idade: 34, posicao: "J", img: "./def.png"}
+        {nome: "Jogador 16", idade: 27, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 17", idade: 31, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 18", idade: 25, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 19", idade: 34, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 20", idade: 19, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 21", idade: 34, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 22", idade: 25, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 23", idade: 34, posicao: "J", img: "./def.png"},
     ],
     goleiros: [
-    {nome: "GOALKEEPER 1", idade: 25, posicao: "J", img: "./def.png"}
+        {nome: "Jogador 24", idade: 27, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 25", idade: 31, posicao: "J", img: "./def.png"},
+        {nome: "Jogador 26", idade: 25, posicao: "J", img: "./def.png"},
     ]
 
 }

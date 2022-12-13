@@ -21,7 +21,7 @@
     color: white;
     text-decoration: none;
 }
-.itemLista a::after{
+/*.itemLista a::after{
     content: '';
     position: absolute;
     width: 100%;
@@ -29,7 +29,7 @@
     left: 0;
     bottom: 0;
     color: yellow;
-}
+}*/
 @media only screen and (max-width: 820px) {
     .itemLista{
         font-size: 3vw;

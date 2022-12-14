@@ -8,7 +8,7 @@ export default function Banner(){
        <img src="banner/Capa.png" alt="Mascote da Seleção Brasileira com a logo da IDE"/>
 
 
-       <div className="">
+       <div>
         <h1>Seleção Brasileira de Futebol</h1>
        </div>
         

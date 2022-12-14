@@ -2,7 +2,6 @@
     width: 100%;
     height: fit-content;
     background-color: #20195F;
-    padding: 1% 0;
 }
 .container ul{
     display: flex;
@@ -15,7 +14,12 @@
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     list-style-type: none;
+    padding: 1vw 4vw;
     margin: auto;
+}
+.itemLista:hover{
+    background-color:#0E389C;
+    transition: 500ms all;
 }
 .itemLista a{
     color: white;

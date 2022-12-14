@@ -8,6 +8,7 @@
     height: 34px;
     margin-bottom: 2px;
 }
+
 .aba, .abaSelecionada {
     flex: 1;
     font-family: 'Poppins', sans-serif;
@@ -26,7 +27,6 @@
 }
 
 .abaSelecionada {
-    text-underline: #FFF;
     font-weight: 700 ;
 }
 
@@ -68,8 +68,6 @@
 
 .jogador:hover {
     transition: .3s ease-in-out;
-    /*margin-top: 10px;*/
-    /*margin-bottom: 10px;*/
     margin-left: 13px;
 }
 
@@ -89,7 +87,6 @@
     display: block;
     width: 88px;
     height: 6px;
-    background: darkmagenta;
     margin: 10px 0 3px 0;
 }
 
@@ -109,7 +106,6 @@
 }
 
 .jogador > .posicao {
-    background: darkmagenta;
     color: #FFFFFF;
     border-radius: 50%;
     width: 64px;

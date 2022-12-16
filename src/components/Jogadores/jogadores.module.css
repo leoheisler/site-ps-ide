@@ -104,6 +104,9 @@
 .nomeJogador {
     font-weight: 700;
 }
+.posicaoTextual {
+    display: none;
+}
 
 .jogador > .posicao {
     color: #FFFFFF;
@@ -122,6 +125,7 @@
 .jogador:hover > .posicao {
     transition: 1s ease-in-out;
 }
+
 
 
 
@@ -145,4 +149,35 @@
 }
 .jogador:nth-child(odd) > .posicao {
     background: #0E389C;
+}
+
+@media (max-width: 420px) {
+    .jogador {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .jogador > .foto {
+        width: 88px;
+        margin: auto;
+    }
+    .jogador > .foto > span {
+        display: block;
+        width: 88px;
+        height: 6px;
+        margin: 10px 0 3px 0;
+    }
+
+    .posicao {
+        display: none;
+    }
+
+    .posicaoTextual {
+        display: block;
+    }
+
+    .jogador > .info  {
+        margin: 5px 0 10px 0;
+    }
+
 }

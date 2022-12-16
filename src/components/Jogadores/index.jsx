@@ -110,6 +110,7 @@ function Jogador({id, jogador}) {
         <div className={styles.info}>
             <span className={styles.nomeJogador}>{jogador.nome}</span>
             <span>Idade: {jogador.idade} anos</span>
+            <span className={styles.posicaoTextual}>Posição: {jogador.posicao}</span>
         </div>
         <div className={styles.posicao}>{jogador.posicao}</div>
     </li>;

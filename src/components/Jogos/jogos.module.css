@@ -1,0 +1,52 @@
+.jogosSection {
+    background: #0E389C;
+    padding: 31px 0 11px 0;
+}
+
+.listaJogos {
+    width: 415px;
+    margin: auto;
+    padding: 0;
+}
+
+.jogo {
+    margin: 0 0 58px 0;
+}
+
+.jogoEnfrentamento {
+    background: #FFD200;
+    border-radius: 25px 25px 0px 0px;
+    height: 116px;
+    text-align: center;
+    color: #0E389C;
+    vertical-align: center;
+    display: flex;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 46px;
+}
+
+.jogoEnfrentamento img {
+    max-height: 80%;
+    width: auto;
+    flex-grow: 1;
+    margin: 11px 0 0 0;
+}
+
+.jogoEnfrentamento span {
+    margin: 46px 0 0 0;
+}
+
+.jogoDetalhes {
+    background: #079A5A;
+    border-radius: 0px 0px 25px 25px;
+    height: 76px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0 0 0;
+}

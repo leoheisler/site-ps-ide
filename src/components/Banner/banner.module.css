@@ -17,6 +17,7 @@
 }
 
 .banner h1{
+    display: flex;
     position: absolute;
     font-family: 'Poppins';
     font-style: normal;
@@ -25,8 +26,13 @@
     line-height: 58px;
     bottom: 0;
     color: #FFFFFF;
-    padding: 25px 290px 25px 40px;
+    padding: 25px 0 25px 0;
     margin: 0;
     background: linear-gradient(180deg, rgba(32, 25, 95, 0) 0%, #20195F 100%);
     width: 100%;
+}
+
+.banner h1 span {
+    min-height: 10px;
+    min-width: 40px;
 }

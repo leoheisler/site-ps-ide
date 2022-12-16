@@ -9,7 +9,7 @@ export default function Banner(){
 
 
        <div>
-        <h1>Seleção Brasileira de Futebol</h1>
+        <h1> <span></span> Seleção Brasileira de Futebol</h1>
        </div>
         
        </div>

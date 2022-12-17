@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap");
 
-* {
-	border: 0;
-	margin: 0;
-}
+
 
 .container {
 	background-color: #0e389c;
@@ -12,14 +9,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-
-.title {
-	font-family: "Poppins", sans-serif;
-	color: #ffffff;
-	text-transform: uppercase;
-	margin-top: 31px;
-	margin-bottom: 43px;
+	padding-top: 31px;
 }
 
 .box {

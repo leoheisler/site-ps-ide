@@ -94,7 +94,7 @@ export default function Jogadores () {
 
         <ul className={styles.jogadores}>
             {getJogadoresAba(abaAberta).map((jogador, id) => (
-                <Jogador id={id} jogador={jogador} />
+                <Jogador key={id} jogador={jogador} />
                 ))}
         </ul>
 

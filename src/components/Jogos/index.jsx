@@ -3,49 +3,47 @@ import styles from "./jogos.module.css";
 
 export default function Jogos() {
 	return (
-		<div class={styles.container}>
-			<h1 class={styles.title}>Próximos Jogos</h1>
+		<div className={styles.container} id="proximos_jogos">
+			<h1 className={styles.title}>Próximos Jogos</h1>
 
-			<div class={styles.box}>
-				<div class={styles.box_top}>
-					<img src="jogos/brasil.png" alt="Time 1" />
-					<img class={styles.x_image} src="jogos/x.png" alt="X" />
-					<img src="jogos/japao.png" alt="Time 2" />
-				</div>
+			<JogosCard
+				time1="jogos/brasil.png"
+				time2="jogos/japao.png"
+				dia="Quinta-feira"
+				data="02/11"
+				hora="07:20"
+			/>
+			<JogosCard
+				time1="jogos/brasil.png"
+				time2="jogos/coreia.png"
+				dia="Sexta-feira"
+				data="07/11"
+				hora="08:00"
+			/>
+			<JogosCard
+				time1="jogos/brasil.png"
+				time2="jogos/ghana.png"
+				dia="Sábado"
+				data="11/11"
+				hora="20:30"
+			/>
+		</div>
+	);
+}
 
-				<div class={styles.box_bottom}>
-					<p>Quinta-feira</p>
-					<p>02/11</p>
-					<p>07:20</p>
-				</div>
+function JogosCard({ id, time1, time2, dia, data, hora }) {
+	return (
+		<div className={styles.box} key={id}>
+			<div className={styles.box_top}>
+				<img src={time1} alt="Time 1" />
+				<img className={styles.x_image} src="jogos/x.png" alt="X" />
+				<img src={time2} alt="Time 2" />
 			</div>
 
-			<div class={styles.box}>
-				<div class={styles.box_top}>
-					<img src="jogos/brasil.png" alt="Time 1" />
-					<img class={styles.x_image} src="jogos/x.png" alt="X" />
-					<img src="jogos/coreia.png" alt="Time 2" />
-				</div>
-
-				<div class={styles.box_bottom}>
-					<p>Sexta-feira</p>
-					<p>07/11</p>
-					<p>08:00</p>
-				</div>
-			</div>
-
-			<div class={styles.box}>
-				<div class={styles.box_top}>
-					<img src="jogos/brasil.png" alt="Time 1" />
-					<img class={styles.x_image} src="jogos/x.png" alt="X" />
-					<img src="jogos/ghana.png" alt="Time 2" />
-				</div>
-
-				<div class={styles.box_bottom}>
-					<p>Sábado</p>
-					<p>11/11</p>
-					<p>20:30</p>
-				</div>
+			<div className={styles.box_bottom}>
+				<p>{dia}</p>
+				<p>{data}</p>
+				<p>{hora}</p>
 			</div>
 		</div>
 	);

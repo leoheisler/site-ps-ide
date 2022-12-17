@@ -8,7 +8,7 @@ export default function Header(){
                 <li className={styles.itemLista}><a href="#topo">HOME</a></li>
                 <li className={styles.itemLista}><a href="#sobre a seleção">SOBRE</a></li>
                 <li className={styles.itemLista}><a href="#jogadores">JOGADORES</a></li>
-                <li className={styles.itemLista}><a href="#">JOGOS</a></li>
+                <li className={styles.itemLista}><a href="#proximos_jogos">JOGOS</a></li>
             </ul>
 
         </div>

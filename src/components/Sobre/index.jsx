@@ -22,7 +22,11 @@ export default function Sobre() {
                 </div>
             </div>
             <div className={styles.info}>
-                <img src="sobre/estadio.png" alt="estadio" className={styles.img}/>
+                <picture>
+                  <source type="image/webp" srcSet="sobre/estadio.webp"/>
+                  <source type="image/png" srcSet="sobre/estadio.png"/>
+                  <img src="sobre/estadio.png" alt="estadio" className={styles.img}/>
+                </picture>
                 <p>
                     MAIS QUE 5 ESTRELAS, 200 MILHÕES DE CORAÇÕES,<br />
                     É taça na raça Brasil

@@ -34,6 +34,10 @@
     background: #20195F;
 }
 
+.abas > button:focus {
+    background: #20195F;
+}
+
 .jogadoresSection {
     width: 860px;
     margin: auto;

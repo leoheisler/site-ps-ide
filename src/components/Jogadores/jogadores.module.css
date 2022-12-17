@@ -8,6 +8,7 @@
     height: 34px;
     margin-bottom: 2px;
 }
+
 .aba, .abaSelecionada {
     flex: 1;
     font-family: 'Poppins', sans-serif;
@@ -26,7 +27,6 @@
 }
 
 .abaSelecionada {
-    text-underline: #FFF;
     font-weight: 700 ;
 }
 
@@ -68,8 +68,6 @@
 
 .jogador:hover {
     transition: .3s ease-in-out;
-    /*margin-top: 10px;*/
-    /*margin-bottom: 10px;*/
     margin-left: 13px;
 }
 
@@ -89,7 +87,6 @@
     display: block;
     width: 88px;
     height: 6px;
-    background: darkmagenta;
     margin: 10px 0 3px 0;
 }
 
@@ -107,9 +104,11 @@
 .nomeJogador {
     font-weight: 700;
 }
+.posicaoTextual {
+    display: none;
+}
 
 .jogador > .posicao {
-    background: darkmagenta;
     color: #FFFFFF;
     border-radius: 50%;
     width: 64px;
@@ -126,6 +125,7 @@
 .jogador:hover > .posicao {
     transition: 1s ease-in-out;
 }
+
 
 
 
@@ -149,4 +149,35 @@
 }
 .jogador:nth-child(odd) > .posicao {
     background: #0E389C;
+}
+
+@media (max-width: 420px) {
+    .jogador {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .jogador > .foto {
+        width: 88px;
+        margin: auto;
+    }
+    .jogador > .foto > span {
+        display: block;
+        width: 88px;
+        height: 6px;
+        margin: 10px 0 3px 0;
+    }
+
+    .posicao {
+        display: none;
+    }
+
+    .posicaoTextual {
+        display: block;
+    }
+
+    .jogador > .info  {
+        margin: 5px 0 10px 0;
+    }
+
 }

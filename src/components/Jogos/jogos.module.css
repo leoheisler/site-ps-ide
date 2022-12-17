@@ -28,6 +28,11 @@
 	height: 100%;
 	margin-bottom: 58px;
 }
+@media (max-width: 550px) {
+    .box {
+        width: 98%;
+    }
+}
 
 .box_top {
 	background-color: #ffd200;

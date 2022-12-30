@@ -12,14 +12,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
 
-.title {
-	font-family: "Poppins", sans-serif;
-	color: #ffffff;
-	text-transform: uppercase;
-	margin-top: 31px;
-	margin-bottom: 43px;
+	padding-top: 31px;
 }
 
 .box {
@@ -29,9 +23,9 @@
 	margin-bottom: 58px;
 }
 @media (max-width: 550px) {
-    .box {
-        width: 98%;
-    }
+	.box {
+		width: 98%;
+	}
 }
 
 .box_top {

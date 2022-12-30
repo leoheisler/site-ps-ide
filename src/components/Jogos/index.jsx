@@ -1,10 +1,11 @@
 import React from "react";
+import Subtitle from "../Subtitle";
 import styles from "./jogos.module.css";
 
 export default function Jogos() {
 	return (
-		<div className={styles.container} id="proximos_jogos">
-			<h1 className={styles.title}>Próximos Jogos</h1>
+		<div className={styles.container}>
+			<Subtitle id="proximos_jogos">Próximos Jogos</Subtitle>
 
 			<JogosCard
 				time1="jogos/brasil.png"
